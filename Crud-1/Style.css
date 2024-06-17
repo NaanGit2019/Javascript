@@ -1,0 +1,53 @@
+.head
+{
+    font-size: 32px;
+    text-align: center;
+    padding: 5px;
+    background: aliceblue;
+    margin: auto;
+    border-radius: 10px;
+    width: 20%;}
+
+    label {
+        width: 100%;
+        display: block;
+    }
+    .formdata input
+    {
+        padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    color: #5f6e74;
+    background: #f7f7f7;
+    min-width: 15%;
+    }
+
+    
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even),table.list thead>tr {
+    background-color: #dddddd;
+}
+
+.Notifierdata td{
+    width: 50%;
+    padding: 20px;
+    background-color: #bfbfbf87;
+}
+.list
+{    width: 100%;
+    border-collapse: collapse;}
+.Notifierdata
+{
+    width: 70%;
+    padding: 20px;
+    margin: auto;
+}
+button{
+    width: auto;
+    border: 5px solid white;
+    border-radius: 10px;
+}

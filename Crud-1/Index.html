@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="Style.css">
+<html style="background:#d1e6f8c7 ;">
+    <title>Simple Notepad</title>
+<div class="head">
+    <nav>Simple Notifier</head>
+</div>
+
+<body>
+    <table class="Notifierdata"id="taskeditor" >
+        <tr>
+          <td>
+          
+            <form onsubmit="event.preventDefault();validatedata();">
+                <div class="formdata">
+            <label>
+                Task Detail
+            </label>
+            <input id="Task" class=""></div>
+            <div class="formdata">
+                <label>
+                Task Planned Date
+            </label>
+            <input id="taskdate"type="date" class=""></div>
+            <div class="formdata">
+                <label>
+                Status
+            </label>
+            <input id="taskstatus" class=""></div>
+            <div class="button">
+                <button type="submit">Submit</button>    
+                <button onclick="Reste">Clear</button>   
+            </div>
+
+        </form>
+        </td>
+        <td>
+            <H4 style="text-align: center;">Notified Task Detail</H4>
+            <table class="list" id="tasklist">
+                <thead>
+                    <tr>
+                        <th>Task Details</th>
+                        <th>Task Date</th>
+                        <th>Status</th>
+                      <!--  <th>City</th>-->
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </td> 
+       </tr>
+    </table>
+<div class="">
+
+</div>
+<script src="Script.js"></script>
+</body>
+    </html>
